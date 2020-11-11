@@ -1,0 +1,14 @@
+* {
+  font-family: "Dosis", sans-serif;
+}
+
+.post-container {
+  text-decoration: none;
+  list-style: none;
+  border-radius: 5%;
+  border: black 2pt solid;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 25px;
+}

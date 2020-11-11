@@ -1,0 +1,25 @@
+/* .hide {
+  display: none;
+} */
+.heading {
+  font-family: "Homemade Apple", cursive;
+  color: rgb(3, 169, 244);
+  background-color: #f3f1f7;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+}
+
+.form-input {
+  margin: 0px 5px 0px 5px;
+}
+
+.form-label {
+}

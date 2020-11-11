@@ -1,0 +1,31 @@
+.post-card {
+  margin-right: 25px;
+  margin-left: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.thoughts {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-title {
+  font-size: 24px;
+  padding: 0px 0px 2px 0px;
+  margin: 2px;
+  font-weight: 600;
+}
+
+.post-thought {
+  font-size: 15px;
+  padding: 0px 0px 2px 0px;
+  margin: 2px;
+  font-weight: 500;
+}
+
+.material-icons {
+  border: 0;
+  background-color: white;
+  cursor: pointer;
+}

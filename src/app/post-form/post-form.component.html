@@ -1,0 +1,10 @@
+<h1 class="heading">My Thoughts</h1>
+<div class="post-form-container">
+  <form class="form" #postForm="ngForm" (ngSubmit)="emitSubmitPost(postForm)">
+    <label class="form-label" for="title">New Title</label>
+    <input class="form-input" type="text" name="title" id="title" ngModel />
+    <label class="form-label" for="thought">New Thought</label>
+    <input class="form-input" type="text" name="thought" id="thought" ngModel />
+    <button>Submit</button>
+  </form>
+</div>
